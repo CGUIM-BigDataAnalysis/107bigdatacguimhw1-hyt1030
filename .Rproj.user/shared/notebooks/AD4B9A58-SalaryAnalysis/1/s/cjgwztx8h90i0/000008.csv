@@ -1,0 +1,6 @@
+"0","SalGB106<-data.frame(year=X106EduPrePerMonSal_BigPos$year,"
+"0","                     career=X106EduPrePerMonSal_BigPos$career,"
+"0","                     salBG=X106EduPrePerMonSal_BigPos$collageGB)%>%"
+"0","  arrange(desc(salBG))%>%"
+"0","  head(10)"
+"0","knitr::kable(SalGB106)"

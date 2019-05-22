@@ -1,0 +1,95 @@
+"0","library(jsonlite)"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","library(dplyr)"
+"0","#fromjson()"
+"0","#inner_join()"
+"0","## åŒ¯å…¥103å¹´"
+"0","library(readr)"
+"2","package ¡¥readr¡¦ was built under R version 3.5.3"
+"0","X103EduPreSal_BigPos <- read_csv(""C:/Users/YTH/Desktop/data2/103EduPreSal_BigPos.csv"", "
+"0","                                 col_types = cols(collageGB = col_double(), "
+"0","                                                  collageSal = col_double(), facultyGB = col_double(), "
+"0","                                                  facultySal = col_double(), graduaeSal = col_double(), "
+"0","                                                  graduateGB = col_double(), juniorGB = col_double(), "
+"0","                                                  juniorSal = col_double(), seniorGB = col_double(), "
+"0","                                                  seniorSal = col_double()), locale = locale(encoding = ""BIG5""))"
+"2","491 parsing failures.
+row        col expected actual                                                 file
+  2 juniorSal  a double      ¡X 'C:/Users/YTH/Desktop/data2/103EduPreSal_BigPos.csv'
+  2 juniorGB   a double      ¡X 'C:/Users/YTH/Desktop/data2/103EduPreSal_BigPos.csv'
+  2 seniorSal  a double      ¡X 'C:/Users/YTH/Desktop/data2/103EduPreSal_BigPos.csv'
+  2 seniorGB   a double      ¡X 'C:/Users/YTH/Desktop/data2/103EduPreSal_BigPos.csv'
+  2 facultySal a double      ¡X 'C:/Users/YTH/Desktop/data2/103EduPreSal_BigPos.csv'
+... .......... ........ ...... ....................................................
+See problems(...) for more details.
+"
+"0","View(X103EduPreSal_BigPos)"
+"0","## åŒ¯å…¥104å¹´"
+"0","library(readr)"
+"0","X104EduPreSal_BigPos <- read_csv(""C:/Users/YTH/Desktop/data2/104EduPreSal_BigPos.csv"", "
+"0","                                 col_types = cols(collageGB = col_double(), "
+"0","                                                  collageSal = col_double(), facultyGB = col_double(), "
+"0","                                                  facultySal = col_double(), graduaeSal = col_double(), "
+"0","                                                  graduateGB = col_double(), juniorGB = col_double(), "
+"0","                                                  juniorSal = col_double(), salaryGB = col_double(), "
+"0","                                                  seniorGB = col_double(), seniorSal = col_double()), "
+"0","                                 locale = locale(encoding = ""BIG5""))"
+"2","506 parsing failures.
+row        col expected actual                                                 file
+  2 juniorSal  a double      ¡X 'C:/Users/YTH/Desktop/data2/104EduPreSal_BigPos.csv'
+  2 juniorGB   a double      ¡X 'C:/Users/YTH/Desktop/data2/104EduPreSal_BigPos.csv'
+  2 seniorSal  a double      ¡X 'C:/Users/YTH/Desktop/data2/104EduPreSal_BigPos.csv'
+  2 seniorGB   a double      ¡X 'C:/Users/YTH/Desktop/data2/104EduPreSal_BigPos.csv'
+  2 facultySal a double      ¡X 'C:/Users/YTH/Desktop/data2/104EduPreSal_BigPos.csv'
+... .......... ........ ...... ....................................................
+See problems(...) for more details.
+"
+"0","View(X104EduPreSal_BigPos)"
+"0","## åŒ¯å…¥105å¹´"
+"0","library(readr)"
+"0","X105EduPrePerMonSal_BigPos <- read_csv(""C:/Users/YTH/Desktop/data2/105EduPrePerMonSal_BigPos.csv"", "
+"0","                                       col_types = cols(collageGB = col_double(), "
+"0","                                                        collageSal = col_double(), facultyGB = col_double(), "
+"0","                                                        facultySal = col_double(), graduaeSal = col_double(), "
+"0","                                                        graduateGB = col_double(), juniorGB = col_double(), "
+"0","                                                        juniorSal = col_double(), salary = col_double(), "
+"0","                                                        salaryGB = col_double(), seniorGB = col_double(), "
+"0","                                                        seniorSal = col_double()), locale = locale(encoding = ""BIG5""))"
+"2","506 parsing failures.
+row        col expected actual                                                       file
+  2 juniorSal  a double      ¡X 'C:/Users/YTH/Desktop/data2/105EduPrePerMonSal_BigPos.csv'
+  2 juniorGB   a double      ¡X 'C:/Users/YTH/Desktop/data2/105EduPrePerMonSal_BigPos.csv'
+  2 seniorSal  a double      ¡X 'C:/Users/YTH/Desktop/data2/105EduPrePerMonSal_BigPos.csv'
+  2 seniorGB   a double      ¡X 'C:/Users/YTH/Desktop/data2/105EduPrePerMonSal_BigPos.csv'
+  2 facultySal a double      ¡X 'C:/Users/YTH/Desktop/data2/105EduPrePerMonSal_BigPos.csv'
+... .......... ........ ...... ..........................................................
+See problems(...) for more details.
+"
+"0","View(X105EduPrePerMonSal_BigPos)"
+"0","## åŒ¯å…¥106å¹´"
+"0","library(readr)"
+"0","X106EduPrePerMonSal_BigPos <- read_csv(""C:/Users/YTH/Desktop/data2/106EduPrePerMonSal_BigPos.csv"", "
+"0","                                       col_types = cols(collageGB = col_double(), "
+"0","                                                        collageSal = col_double(), facultyGB = col_double(), "
+"0","                                                        facultySal = col_double(), graduaeSal = col_double(), "
+"0","                                                        graduateGB = col_double(), juniorGB = col_double(), "
+"0","                                                        juniorSal = col_double(), salaryGB = col_double(), "
+"0","                                                        seniorGB = col_double(), seniorSal = col_double()), "
+"0","                                       locale = locale(encoding = ""BIG5""))"
+"2","515 parsing failures.
+row        col expected actual                                                       file
+  2 juniorSal  a double      ¡X 'C:/Users/YTH/Desktop/data2/106EduPrePerMonSal_BigPos.csv'
+  2 juniorGB   a double      ¡X 'C:/Users/YTH/Desktop/data2/106EduPrePerMonSal_BigPos.csv'
+  2 seniorSal  a double      ¡X 'C:/Users/YTH/Desktop/data2/106EduPrePerMonSal_BigPos.csv'
+  2 seniorGB   a double      ¡X 'C:/Users/YTH/Desktop/data2/106EduPrePerMonSal_BigPos.csv'
+  2 facultySal a double      ¡X 'C:/Users/YTH/Desktop/data2/106EduPrePerMonSal_BigPos.csv'
+... .......... ........ ...... ..........................................................
+See problems(...) for more details.
+"
+"0","View(X106EduPrePerMonSal_BigPos)"

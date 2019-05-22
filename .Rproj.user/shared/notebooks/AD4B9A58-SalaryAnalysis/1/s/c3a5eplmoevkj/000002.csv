@@ -1,0 +1,18 @@
+"0","#這是R Code Chunk"
+"0","IntCar<-rbind(filter(X106EduPrePerMonSal_BigPos,career==""工業部門""),"
+"0","              filter(X106EduPrePerMonSal_BigPos,career==""製造業""),"
+"0","              filter(X106EduPrePerMonSal_BigPos,career==""服務業部門""),"
+"0","              filter(X106EduPrePerMonSal_BigPos,career==""運輸及倉儲業""),"
+"0","              filter(X106EduPrePerMonSal_BigPos,career==""資訊及通訊傳播業""))"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","IntCar2<-data.frame(year=IntCar$year,"
+"0","                    career=IntCar$career,"
+"0","                    collageSal=IntCar$collageSal,"
+"0","                    graduateSal=IntCar$graduaeSal)"
+"0","knitr::kable(IntCar2)"
